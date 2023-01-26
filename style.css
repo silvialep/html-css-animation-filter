@@ -155,3 +155,60 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-top-white {
+    animation: topuno 4s linear infinite;
+}
+
+.ex-12-bottom-white {
+    animation: bottomuno 4s linear infinite;
+}
+
+@keyframes bottomuno {
+    0% {bottom: -10px; right: 20%}
+    25% {bottom: -10px; right: -10px}
+    50% {bottom: 60px; right: -10px}
+    75% {bottom: 60px; right: 20%}
+    100% {bottom: -10px; right: 20%}
+}
+
+@keyframes topuno {
+    0% {top: -10px; left: 10%}
+    25% {top: -10px; left: -10px}
+    50% {top: 60px; left: -10px}
+    75% {top: 60px; left: 10%}
+    100% {top: -10px; left: 10%}
+}
+
+
+.ex-13-top-white {
+    animation: topdue 4s linear infinite;
+}
+
+.ex-13-bottom-white {
+    animation: bottomdue 4s linear infinite;
+}
+
+@keyframes bottomdue {
+    0% {bottom: -10px; right: 20%}
+    12% {bottom: -10px; right: -10px}
+    24% {bottom: 60px; right: -10px}
+    37% {bottom: 60px; right: 20%}
+    51% {bottom: 60px; right: 40%}
+    64% {bottom: 60px; right: 140px}
+    73% {bottom: -10px; right: 140px}
+    88% {bottom: -10px; right: 40%}
+    100% {bottom: -10px; right: 20%}
+}
+
+@keyframes topdue {
+    0% {top: -10px; left: 10%}
+    12% {top: -10px; left: -10px}
+    24% {top: 60px; left: -10px}
+    37% {top: 60px; left: 10%}
+    51% {top: 60px; left: 70px}
+    64% {top: 60px; left: 140px}
+    73% {top: -10px; left: 140px}
+    88% {top: -10px; left: 70px}
+    100% {top: -10px; left: 10%}
+}
