@@ -25,12 +25,24 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 4s;
 }
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 4s;
 }
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
